@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Camaras M-30</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<style>
+			.capa_mapa {
+				height: 100px;  /* The height is 400 pixels */
+				width: 500px;  /* The width is the width of the web page */
+			}
+		</style>
+		
+	</head>
+	<body>
+	<div class="container">
+		<input type="submit" class="btn btn-info" value="Mostrar datos" onclick="pedirXML();">
+		<table id="tabla" class="table">
+		<tr class="info"><th>Mapa</th><th>Foto</th></tr>
+		</table>
+		</div>
+	</body>
+		<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2nnTwxI_6v6FgZQ_HYALbkWsL3qhFjT4">
+		</script>
+		<script src="js/funciones_GoogleMaps.js"></script>
+</html>
+<!--API ejercicio: AIzaSyA2nnTwxI_6v6FgZQ_HYALbkWsL3qhFjT4-->
